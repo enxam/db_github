@@ -1,0 +1,9 @@
+in root user:
+create database lab_db;
+grant all on lab_db.* to guest@localhost;
+use lab_db;
+create table trainings (
+  subject varchar(150) not null,
+  duration_hours float not null,
+  
+)
